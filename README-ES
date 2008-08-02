@@ -1,0 +1,88 @@
+
+= Introducción =
+
+Por favor visita los siguientes sitios web, en donde encontrarás más 
+información:
+
+Project Honey Pot website
+http://www.projecthoneypot.org/?rf=39586
+
+Plugin cpg-httpbl
+http://code.google.com/p/cpg-dnsbl/
+
+= Contacto =
+
+Autor: Mario Oyorzabal Salgado
+Blog: http://blog.tuxsoul.com
+E-mail: <tuxsoul@tuxsoul.com>
+
+= Bugs =
+
+Si encuentras algún bug o tienes alguna idea para una característica que creas 
+que le puede ser útil a este Plugin, puedes dejarla en el bugtrack:
+
+http://code.google.com/p/cpg-dnsbl/issues/list
+
+= Licencia =
+
+GNU General Public License v2
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+= Requerimientos =
+
+  * Key de "Project Honey Pot"
+  * Quicklink de "Project Honey Pot" 
+  * Coppermine Gallery 1.4 +
+  * PHP4 +
+
+= Características =
+
+  * Usa Http:BL para detectar spammer's
+  * Posibilidad de redireccionar hacia una trampa si el visitante es un spammer
+  * Posibilidad de insertar direcciones de trampas en el código html de 
+    Coppermine Gallery
+
+= Detalles =
+
+  * Primero descarga y descomprime el archivo de este Plugin
+  * Renombra el directorio del plugin a "cpg-httpbl"
+  * Dentro del directorio de "cpg-httpbl" hay un archivo nombrado 
+    "config.httpbl.php", en el cual es necesario cambiar lo siguiente:
+
+     * Ingresa tú "key" de Project Honey Pot
+     * Ingresa un QuickLink o trampa, para redireccionar a los spammer's 
+     * Ingresa una palabra aleatoria, la que sea, solo es para mostrar los 
+       enlaces que llevan a trampas para spammer's
+
+  * Sube el directorio "cpg-httpbl" al directorio de Plugins de tú galería, el
+    cual tiene el nombre de "plugins"
+  * Utilizando tu navegador favorito, ve a tú galería de fotos, entra como
+    Administrador
+  * Verificar que en la configuración de tú galería este activada la opción
+    "Habilitar Plugins"
+  * Ve hacia el administrador de Plugins: "pluginmgr.php"
+ 
+    Ej.
+        http://www.example.com/pluginmgr.php
+        http://www.example.com/cpg/pluginmgr.php
+
+  * En la pantalla ya debe de aparecer este Plugin "cpg-httpbl"
+  * Instala el Plugin, dando clic en la letra "i", que se encuentra de lado 
+    derecho
+ 
+Por último ya solo queda esperar para bloquear a los spammer's que lleguen a tú
+sitio web.
+
+= Donaciones = 
+
+Por favor considera el ayudar mediante donaciones, para más información visita
+el siguiente enlace:
+
+Donación
+http://tinyurl.com/36mzoa
+
+Plugin cpg-httpbl
+http://code.google.com/p/cpg-dnsbl/
+
+
+Saludos :-).
